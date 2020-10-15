@@ -8,6 +8,12 @@ module.exports = function (grunt) {
                     files: "www/src/**/*.js"
                 }
             },
+            watch: {
+                sample: {
+                    files: "www/src/**/*.js",
+                    tasks: ['jshint','connect']
+                }
+            },
             connect: {
                 server: {
                     options: {
