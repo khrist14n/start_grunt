@@ -11,7 +11,7 @@ module.exports = function (grunt) {
             watch: {
                 sample: {
                     files: "www/src/**/*.js",
-                    tasks: ['jshint','connect']
+                    tasks: ['jshint']
                 }
             },
             connect: {
