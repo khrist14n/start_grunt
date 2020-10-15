@@ -13,15 +13,15 @@ module.exports = function (grunt) {
                     options: {
                         base: 'www',
                         port: 9000,
-                        keepalive: true,
-                        open: {
+                        keepalive: true//,
+                        /*open: {
                             target: 'http://localhost:9000/index.html',
                             appName: 'chrome',
                             callback: function () {
                                 console.log("Ingresando a pagina");
                                 return;
                             }
-                        }
+                        }*/
                     }
                 }
             }
