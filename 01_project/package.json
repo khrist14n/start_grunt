@@ -1,0 +1,19 @@
+{
+    "name": "project 01",
+    "version": "1.0.0",
+    "description": "Project 01",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error : no test specified\" && exit 1"
+    },
+    "author": "Christian Portilla Pauca",
+    "email": "xhrist14n@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "grunt": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-nodeunit": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-watch": "*"
+    }
+}
