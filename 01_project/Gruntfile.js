@@ -1,11 +1,11 @@
 module.exports = function (grunt) {
-    console.log("Inicio ejecucion grunt")(grunt);
-    require("load-grunt-tasks");
+    console.log("Inicio ejecucion grunt");
+    require("load-grunt-tasks")(grunt);
     grunt.initConfig(
         {
             jshint: {
                 sample: {
-                    files: "src/**/*.js"
+                    files: "www/src/**/*.js"
                 }
             },
             connect: {
