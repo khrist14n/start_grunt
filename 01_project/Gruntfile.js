@@ -11,8 +11,11 @@ module.exports = function (grunt) {
             watch: {
                 sample: {
                     files: "www/src/**/*.js",
-                    tasks: ['jshint']
-                }
+                    tasks: ['jshint'],
+                    options: {
+                        livereload: true,
+                    }
+                }                
             },
             connect: {
                 server: {
